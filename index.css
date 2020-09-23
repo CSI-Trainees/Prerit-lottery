@@ -1,0 +1,161 @@
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+
+}
+.container{
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(25, 42, 197, 0.349);
+    flex-wrap: wrap;
+    
+}
+.nav{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px 10px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 15px;
+}
+body::before{
+    content: "";
+    background: url('bg.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.322);
+}
+#home{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* body{
+    background-image: url(new-years-eve.jpg);
+    backgr
+} */
+.btn{
+    background-color: #201de6d5;
+    padding: 7px 22px;
+    border: 4px solid #20198f;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    width: 30%;
+}
+.btn h3{
+    font-size: 27px;
+
+}
+#input{
+    border: 4px solid #1010a9f5;
+    border-radius: 17px;
+    background-color: #ffffff8a;
+    color: white;
+    /* position: relative; */
+    padding: 5px 0px;
+    text-align: center;
+    /* bottom: 75px;
+    left: 569px; */
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+.btn::after{
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: blue;
+}
+#menu{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.container{
+height: 570px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+justify-content:  space-evenly;
+border-bottom: unset;
+}
+#submit{
+    width: 10%;
+    border: 2px solid blue;
+    border-radius: 8px;
+    background-color:#1010a9e0;
+    font-weight: bold;
+    padding: 7px 22px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#submit:hover{
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: blue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.done{
+    margin-top: 90px;
+    width: 200px;
+}
+.img{
+height: 100px;
+width: 80px;
+clip-path: circle();
+}
+#winners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.winners{
+    border: 5px solid blue ;
+    border-radius: 10px;
+    width: 200px;
+    height: 262px;
+    text-align: center;
+    background-color: gray;
+}
+.bold{
+    font-weight: bold;
+}
+#winners{
+    height: 500px;
+    background: url("bingo.jpg");
+    background-size: 1200px;
+}
+.container h2,h1{
+    border: 2px solid blue;
+    background-color: white;
+    padding: 5px;
+    color: blue;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+#h{
+    background-color:#12b5b6;
+    color: darkblue;
+    border: 2px solid darkblue;
+    opacity: 1;
+}
