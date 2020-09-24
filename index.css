@@ -54,7 +54,7 @@ body{
     border-radius: 12px;
     font-weight: bold;
     color: white;
-    width: 30%;
+    width: 100%;
 }
 .btn h3{
     font-size: 27px;
@@ -73,8 +73,9 @@ body{
     font-size: 25px;
     color: blue;
     font-weight: bold;
+    cursor: pointer;
 }
-.btn::after{
+.btn:hover{
     text-transform: uppercase;
     cursor: pointer;
     background-color: blue;
@@ -116,8 +117,9 @@ border-bottom: unset;
     align-items: center;
 }
 .done{
-    margin-top: 90px;
+    margin-top: 80px;
     width: 200px;
+    font-size: 24px;
 }
 .img{
 height: 100px;
@@ -158,4 +160,41 @@ clip-path: circle();
     color: darkblue;
     border: 2px solid darkblue;
     opacity: 1;
+}
+#line{
+    display: flex;
+    align-items: center;
+}
+#line p{
+    color: white;
+    font-size: 20px;
+    padding-right: 1rem;
+}
+#btn{
+    width: 35%;
+}
+#forBG{
+    /* display: none; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(15, 15, 15, 0.589),rgba(15, 15, 15, 0.473)), url("bg2.jpg");
+    background-size: cover;
+   
+    
+}
+#random{
+    display: none;
+    color: #e33c17;
+    font-size: 30px;
+    border: 3px solid #e33c17;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+.result{
+    width: cover;
+    height: 500px;
+    display: none;
+}
+#result{
+    display: none;
 }
