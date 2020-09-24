@@ -1,14 +1,20 @@
+var content;
 function myfunc() {
-    let content;
     content=10+10*Math.random();
     content=Math.floor(content);
-    document.getElementById("h1").innerHTML="You have got: "+content;
-    btn.style.width="30%"
-    btn.setAttribute("disabled","disabled");
+    document.getElementById("random").innerHTML="!! Your lucky number is: "+content+"!!";
+    btn.style.width="35%"
+    document.getElementById("btn").style.display="none";
+    document.getElementById("random").style.display="inline";
 }
 function submit() {
     let x;
-   x=document.getElementsByName("input");
-   console.log(x);
+    x=document.getElementsByName("input");
+    console.log(x);
 }
-
+let y;
+function home() {
+    xyz.setAttribute("disabled","disabled");
+    document.getElementById("forBG").style.display="inline";
+    
+}
