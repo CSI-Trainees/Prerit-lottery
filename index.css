@@ -3,11 +3,6 @@
     margin: 0;
 
 }
-body{
-    background-color: rgb(6, 6, 44);
-}
-.container{
-}
 .navbar{
     position: fixed;
     width: 100%;
@@ -25,6 +20,9 @@ body{
     border: 3px solid white;
     color: white;
     border-radius: 15px;
+}
+.nav:hover{
+    background-color: rgba(25, 42, 160, 0.349);
 }
 body::before{
     content: "";
@@ -104,7 +102,7 @@ body{
     justify-content: space-between;
 }
 .container{
-height: 570px;
+height: 539px;
 display: flex;
 flex-direction: column;
 justify-content: center;
