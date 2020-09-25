@@ -7,14 +7,16 @@ function myfunc() {
     document.getElementById("btn").style.display="none";
     document.getElementById("random").style.display="inline";
 }
-function submit() {
-    let x;
-    x=document.getElementsByName("input");
-    console.log(x);
-}
-let y;
-function home() {
-    xyz.setAttribute("disabled","disabled");
-    document.getElementById("forBG").style.display="inline";
+
+function result() {
     
-}
+    if (content==11 || content==15 || content==18) 
+    {
+        document.getElementById("result").innerHTML="!! YOU WIN !!"       
+    }
+    else{
+     
+        document.getElementById("result").innerHTML="!! BETTER LUCK NEXT TIME !!";  
+    }
+ 
+ }
