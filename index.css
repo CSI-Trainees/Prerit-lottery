@@ -141,6 +141,7 @@ border-bottom: unset;
 height: 100px;
 width: 80px;
 clip-path: circle();
+z-index: -2;
 }
 #winners{
     display: flex;
