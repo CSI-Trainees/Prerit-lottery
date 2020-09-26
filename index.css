@@ -25,6 +25,10 @@
     color: white;
     border-radius: 15px;
 }
+.nav:hover{
+    border: 3px solid orange;
+    color: orange;
+}
 body::before{
     content: "";
     background: url('bg.jpg');
